@@ -38,6 +38,7 @@ This is a light and more color-intensive variation of the "Northem" color palett
     (4.5) JSON
     (4.6) Markdown
     (4.7) Perl
+    (4.8) PHP
 
 [Variations]
   - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
@@ -361,5 +362,11 @@ Glacier - Git
   <style name="perl:include-statement" use-style="def:statement" />
   <style name="perl:special-variable" use-style="def:constant" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.7]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - PHP                                                      [4.8] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="php:string" use-style="def:string" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.8]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
