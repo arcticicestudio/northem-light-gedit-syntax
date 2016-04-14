@@ -33,6 +33,7 @@ This is a light and more color-intensive variation of the "Northem" color palett
     (4.0) CSS
     (4.1) diff
     (4.2) HTML
+    (4.3) Java
 
 [Variations]
   - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
@@ -293,5 +294,24 @@ Glacier - Git
   <style name="html:dtd" use-style="def:shebang" />
   <style name="html:tag" use-style="def:keyword" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.2]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Java                                                     [4.3] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="java:escaped-character" use-style="def:escape" />
+  <style name="java:string" use-style="def:string" />
+  <style name="java:char" use-style="def:character" />
+  <style name="java:external" use-style="def:preprocessor" />
+  <style name="java:declaration" use-style="def:variable" />
+  <style name="java:storage-class" use-style="def:keyword" />
+  <style name="java:scope-declaration" use-style="def:keyword" />
+  <style name="java:keyword" use-style="def:keyword" />
+  <style name="java:null-value" use-style="def:keyword" />
+  <style name="java:boolean" use-style="def:keyword" />
+  <style name="java:number" use-style="def:number" />
+  <style name="java:reserved" use-style="def:constant" />
+  <style name="java:type" use-style="def:keyword" />
+  <style name="java:method" use-style="def:function" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.3]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
