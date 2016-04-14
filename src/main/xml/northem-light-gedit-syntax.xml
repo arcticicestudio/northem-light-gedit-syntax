@@ -36,6 +36,7 @@ This is a light and more color-intensive variation of the "Northem" color palett
     (4.3) Java
     (4.4) JavaScript
     (4.5) JSON
+    (4.6) Markdown
 
 [Variations]
   - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
@@ -334,5 +335,22 @@ Glacier - Git
   <style name="json:decimal" use-style="def:decimal" />
   <style name="json:float" use-style="def:floating-point" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.5]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Markdown                                                 [4.6] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="markdown:header" foreground="dark-blue" bold="true" />
+  <style name="markdown:horizontal-rule" use-style="def:attribute" />
+  <style name="markdown:list-marker" use-style="def:attribute" />
+  <style name="markdown:code" foreground="blue" italic="true" />
+  <style name="markdown:blockquote-marker" use-style="def:attribute" />
+  <style name="markdown:link-text" use-style="def:keyword" />
+  <style name="markdown:label" use-style="def:string" />
+  <style name="markdown:strong-emphasis" use-style="def:string" />
+  <style name="markdown:line-break" use-style="def:comment" />
+  <!--<style name="markdown:definition-list-marker" use-style="def:attribute" />-->
+  <!--<style name="markdown:abbreviation" use-style="#575757" />-->
+  <!--<style name="markdown:table-separator" bold="true" />-->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.6]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
