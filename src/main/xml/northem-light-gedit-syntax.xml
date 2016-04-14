@@ -4,7 +4,7 @@
 title     Northem Light - Gedit Syntax     +
 project   northem-light-gedit-syntax       +
 file      northem-light-gedit-syntax.xml   +
-version                                    +
+version   0.1.0                            +
 author    Arctic Ice Studio                +
 email     development@arcticicestudio.com  +
 website   http://arcticicestudio.com       +
@@ -72,7 +72,7 @@ Visit the official website http://arcticicestudio.com/northem (actually under co
   - XML        (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/xml.lang)
 
 [Version]
-- (https://github.com/arcticicestudio/northem-light-gedit-syntax/releases/latest)
+0.1.0 (https://github.com/arcticicestudio/northem-light-gedit-syntax/releases/latest)
 
 For older versions check out the GitHub Repository (https://github.com/arcticicestudio/northem-light-gedit-syntax/releases)
 and http://arcticicestudio.com/northem (actually under construction).
