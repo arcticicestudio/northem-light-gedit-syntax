@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+++++++++++++++++++++++++++++++++++++++++++++
+title     Northem Light - Gedit Syntax     +
+project   northem-light-gedit-syntax       +
+file      northem-light-gedit-syntax.xml   +
+version   0.1.0                            +
+author    Arctic Ice Studio                +
+email     development@arcticicestudio.com  +
+website   http://arcticicestudio.com       +
+copyright Copyright (C) 2015-2016          +
+created   2015-03-15 20:17 UTC+0100        +
+modified  2016-04-14 14:04 UTC+0200        +
+++++++++++++++++++++++++++++++++++++++++++++
+
+[Description]
+A north-bluish light theme based on the same named color palette "Northem Light".
+This is a light and more color-intensive variation of the "Northem" color palette.
+
+[Index]
+  (1) Color Palette
+    (1.0) Northem Light 1.0.2
+  (2) Settings
+  (3) Definitions
+    (3.0) Customs
+    (3.1) Defaults
+      (3.1.0) Variables
+      (3.1.1) Constants
+      (3.1.2) Comments
+      (3.1.3) Keywords
+      (3.1.4) Logicals
+  (4) Languages
+    (4.0) CSS
+    (4.1) diff
+    (4.2) HTML
+    (4.3) Java
+    (4.4) JavaScript
+    (4.5) JSON
+    (4.6) Markdown
+    (4.7) Perl
+    (4.8) PHP
+    (4.9) Python
+    (4.10) Ruby
+    (4.11) ShellScript
+    (4.12) XML
+
+[Variations]
+  - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
+  - "Northem Dark - Gedit Syntax" (https://github.com/arcticicestudio/northem-dark-gedit-syntax)
+
+[Other Projects]
+  - "Northem Light - IntelliJ IDEA Syntax" (https://github.com/arcticicestudio/northem-light-intellij-idea-syntax)
+  - "Northem Light - Atom Syntax"          (https://github.com/arcticicestudio/northem-light-atom-syntax)
+  - "Northem Light - Eclipse Syntax"       (https://github.com/arcticicestudio/northem-light-eclipse-syntax)
+  - "Northem Light - GTK"                  (in drafting)
+  - "Northem Light - Notepadd++ Syntax"    (https://github.com/arcticicestudio/northem-light-notepadplusplus-syntax)
+
+Visit the official website http://arcticicestudio.com/northem (actually under construction) for more information.
+
+[Languages]
+  - CSS        (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/css.lang)
+  - diff       (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/diff.lang)
+  - HTML       (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/html.lang)
+  - Java       (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/java.lang)
+  - JavaScript (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/javascript.lang)
+  - JSON       (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/json.lang)
+  - Perl       (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/perl.lang)
+  - PHP(       (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/php.lang)
+  - Python     (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/python.lang)
+  - Ruby       (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/ruby.lang)
+  - Shell      (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/sh.lang)
+  - XML        (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/xml.lang)
+
+[Version]
+0.1.0 (https://github.com/arcticicestudio/northem-light-gedit-syntax/releases/latest)
+
+For older versions check out the GitHub Repository (https://github.com/arcticicestudio/northem-light-gedit-syntax/releases)
+and http://arcticicestudio.com/northem (actually under construction).
+
+[Changelog]
+Check out the "CHANGELOG.md" file or visit the GitHub Repository (https://github.com/arcticicestudio/northem-light-gedit-syntax)
+and http://arcticicestudio.com/northem (actually under construction).
+
+[Installation]
+Download and install the recommended font, read the "Dependencies" section for more information.
+
+Go to "Edit" -> "Preferences" -> "Font & Colors" and click on the "+".
+Alternatively copy the theme file manually, depending on the desired type of installation:
+
+  Global: /usr/share/gedit/styles
+  User:   ~/.local/share/gedit/styles
+
+Activate it by going to "Edit" > "Preferences" > "Font & Colors" and select "Northem Light" from the list.
+
+[Development]
+Workflow
+This project follows the "gitflow" (http://nvie.com/posts/a-successful-git-branching-model) branching model.
+
+Specifications
+This project follows the "Arctic Versioning Specification (ArcVer)" (https://github.com/arcticicestudio/arcver).
+
+[Dependencies]
+This theme requires the Open Source font "Source Code Pro" (https://typekit.com/fonts/source-code-pro).
+Visit the GitHub Repository (https://github.com/adobe-fonts/source-code-pro) for more information.
+
+Production
+  Engines
+    - gedit@3.20.1 (https://wiki.gnome.org/Apps/Gedit)
+
+Development
+  - northem-light@1.0.2 (https://github.com/arcticicestudio/northem-light)
+
+  Engines
+    - git@2.8.* (https://git-scm.com)
+
+  Skeletons
+    - glacier-git@0.22.0 (https://github.com/arcticicestudio/glacier-git)
+
+[Contribution]
+Please report issues/bugs, suggestions for improvements and feature requests to the issuetracker
+at https://github.com/arcticicestudio/northem-light-gedit-syntax/issues.
+
+[Author]
+"Northem Light - Gedit Syntax" is developed and authored by Arctic Ice Studio.
+
+[Copyright]
+Copyright (C) 2015-2016 Arctic Ice Studio <development@arcticicestudio.com>
+
+[License]
+Northem code is licensed under "GPL 3.0" (http://www.gnu.org/licenses/gpl.txt).
+Northem color palette itself is licensed under "CC BY-SA 4.0" (http://creativecommons.org/licenses/by-sa/4.0).
+
+[References]
+Northem Light
+  (http://github.com/arcticicestudio/northem-light)
+Northem
+  (http://github.com/arcticicestudio/northem)
+Style Scheme Definition
+  (https://developer.gnome.org/gtksourceview/stable/style-reference.html)
+Language Definition
+  (https://developer.gnome.org/gtksourceview/stable/lang-reference.html)
+GtkSourceStyle API
+  (https://developer.gnome.org/gtksourceview/stable/GtkSourceStyle.html)
+GtkSourceStyleScheme API
+  (https://developer.gnome.org/gtksourceview/stable/GtkSourceStyleScheme.html)
+Arctic Versioning Specification
+  (http://specs.arcticicestudio.com/arcver) (ArcVer)
+gitflow
+  (http://nvie.com/posts/a-successful-git-branching-model)
+Glacier - Git
+  (https://github.com/arcticicestudio/glacier-git)
+-->
+<style-scheme id="northem-light-gedit-syntax" name="Northem Light" filename="northem-light-gedit-syntax.xml" version="1.0">
+  <author>Arctic Ice Studio</author>
+  <description>A north-bluish light theme based on the same named color palette "Northem Light". This is a light and more color-intensive variation of the "Northem" color palette</description>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Color Palette                                                          [1] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Color Palette - Northem Light 1.0.2                                  [1.0] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <color name="dark-gray"  value="#454546" />
+  <color name="gray"       value="#6D6D6F" />
+  <color name="light-gray" value="#C6C6C8" />
+  <color name="dark-snow"  value="#F2F2F7" />
+  <color name="dirty-snow" value="#F9F9FC" />
+  <color name="snow"       value="#FFFFFF" />
+
+  <color name="aqua"       value="#7ACAC2" />
+  <color name="light-blue" value="#6FBAD0" />
+  <color name="blue"       value="#71A7CA" />
+  <color name="dark-blue"  value="#5781B3" />
+
+  <color name="red"        value="#DF5C5A" />
+  <color name="yellow"     value="#FFC568" />
+  <color name="orange"     value="#F19054" />
+  <color name="lime"       value="#C5C961" />
+  <color name="purple"     value="#BA8EC4" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [1.0]-+ -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [1]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Settings                                                               [2] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="text" foreground="dark-gray" />
+  <style name="selection" foreground="snow" background="blue" />
+  <style name="selection-unfocused" foreground="snow" background="blue" />
+  <style name="current-line" foreground="dark-gray" background="dark-snow" />
+  <style name="line-numbers" foreground="gray" background="dark-snow" />
+  <style name="cursor" foreground="dark-gray" />
+  <style name="secondary-cursor" use-style="cursor" />
+  <style name="bracket-match" foreground="dark-gray" background="blue" />
+  <style name="bracket-mismatch" foreground="red" underline="true" />
+  <style name="search-match" foreground="snow" background="blue" underline="true" />
+  <style name="draw-spaces" foreground="light-gray" />
+  <style name="right-margin" foreground="dark-snow" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Definitions                                                            [3] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Definitions - Customs                                                [3.0] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="def:symbol" foreground="dark-gray" />
+  <style name="def:other" foreground="dark-gray" />
+  <style name="def:regexp" foreground="yellow" />
+  <style name="def:verbatim" foreground="yellow" />
+  <style name="def:escape" foreground="yellow" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.0]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Definitions - Defaults                                               [3.1] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Definitions - Defaults - Variables                                 [3.1.0] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="def:string" foreground="dark-gray" />
+  <style name="def:character" foreground="dark-gray" />
+  <style name="def:special-char" foreground="yellow" />
+  <style name="def:number" foreground="purple" />
+  <style name="def:decimal" use-style="def:number" />
+  <style name="def:base-n-integer" use-style="def:number" />
+  <style name="def:floating-point" use-style="def:number" />
+  <style name="def:complex" use-style="def:number" />
+  <style name="def:variable" foreground="dark-gray" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.1.0]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Definitions - Defaults - Constants                                 [3.1.1] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="def:constant" foreground="aqua" bold="true" />
+  <style name="def:namespace" foreground="dark-blue" />
+  <style name="def:special-constant" foreground="dark-blue" />
+  <style name="def:boolean" foreground="aqua" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.1.1]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Definitions - Defaults - Comments                                  [3.1.2] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="def:comment" foreground="light-gray" />
+  <style name="def:note" use-style="def:comment" />
+  <style name="def:doc-comment" use-style="def:comment" />
+  <style name="def:doc-comment-element" foreground="dark-blue" />
+  <style name="def:net-address-in-comment" foreground="light-gray" italic="true" underline="true" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.1.2]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Definitions - Defaults - Keywords                                  [3.1.3] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="def:keyword" foreground="blue" />
+  <style name="def:class" foreground="aqua" />
+  <style name="def:tag" use-style="def:keyword" />
+  <style name="def:identifier" use-style="def:keyword" />
+  <style name="def:attribute" use-style="def:class" />
+  <style name="def:shebang" foreground="dark-blue" />
+  <style name="def:preprocessor" foreground="dark-blue" />
+  <style name="def:statement" use-style="def:keyword" />
+  <style name="def:builtin" use-style="def:keyword" />
+  <style name="def:reserved" use-style="def:keyword" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.1.3]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Definitions - Defaults - Logicals                                  [3.1.4] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="def:function" foreground="lime" />
+  <style name="def:operator" foreground="blue" />
+  <style name="def:error" foreground="red" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.1.4]-+ -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.1]-+ -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages                                                              [4] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - CSS                                                      [4.0] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="css:at-rules" use-style="def:keyword" />
+  <style name="css:color" use-style="def:constant" />
+  <style name="css:comment" use-style="def:comment" />
+  <style name="css:decimal" use-style="def:decimal" />
+  <style name="css:error" use-style="def:error" />
+  <style name="css:keyword" use-style="def:keyword" />
+  <style name="css:block" use-style="def:symbol" />
+  <style name="css:string" use-style="def:string" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.0]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - diff                                                     [4.1] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="diff:added-line" foreground="lime" />
+  <style name="diff:removed-line" foreground="red" />
+  <style name="diff:changed-line" foreground="yellow" />
+  <style name="diff:special-case" use-style="def:string" />
+  <style name="diff:location" use-style="def:keyword" />
+  <style name="diff:diff-file" foreground="dark-blue" bold="true" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.1]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - HTML                                                     [4.2] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="html:dtd" use-style="def:shebang" />
+  <style name="html:tag" use-style="def:keyword" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.2]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Java                                                     [4.3] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="java:escaped-character" use-style="def:escape" />
+  <style name="java:string" use-style="def:string" />
+  <style name="java:char" use-style="def:character" />
+  <style name="java:external" use-style="def:preprocessor" />
+  <style name="java:declaration" use-style="def:variable" />
+  <style name="java:storage-class" use-style="def:keyword" />
+  <style name="java:scope-declaration" use-style="def:keyword" />
+  <style name="java:keyword" use-style="def:keyword" />
+  <style name="java:null-value" use-style="def:keyword" />
+  <style name="java:boolean" use-style="def:keyword" />
+  <style name="java:number" use-style="def:number" />
+  <style name="java:reserved" use-style="def:constant" />
+  <style name="java:type" use-style="def:keyword" />
+  <style name="java:method" use-style="def:function" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.3]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - JavaScript                                               [4.4] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="js:function" use-style="def:function" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.4]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - JSON                                                     [4.5] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="json:keyname" use-style="def:keyword" />
+  <style name="json:special-char" use-style="def:special-char" />
+  <style name="json:string" use-style="def:string" />
+  <style name="json:null-value" use-style="def:keyword" />
+  <style name="json:boolean" use-style="def:boolean" />
+  <style name="json:error" use-style="def:error" />
+  <style name="json:decimal" use-style="def:decimal" />
+  <style name="json:float" use-style="def:floating-point" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.5]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Markdown                                                 [4.6] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="markdown:header" foreground="dark-blue" bold="true" />
+  <style name="markdown:horizontal-rule" use-style="def:attribute" />
+  <style name="markdown:list-marker" use-style="def:attribute" />
+  <style name="markdown:code" foreground="blue" italic="true" />
+  <style name="markdown:blockquote-marker" use-style="def:attribute" />
+  <style name="markdown:link-text" use-style="def:keyword" />
+  <style name="markdown:label" use-style="def:string" />
+  <style name="markdown:strong-emphasis" use-style="def:string" />
+  <style name="markdown:line-break" use-style="def:comment" />
+  <!--<style name="markdown:definition-list-marker" use-style="def:attribute" />-->
+  <!--<style name="markdown:abbreviation" use-style="#575757" />-->
+  <!--<style name="markdown:table-separator" bold="true" />-->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.6]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Perl                                                     [4.7] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="perl:builtin" use-style="def:builtin" />
+  <style name="perl:include-statement" use-style="def:statement" />
+  <style name="perl:special-variable" use-style="def:constant" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.7]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - PHP                                                      [4.8] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="php:string" use-style="def:string" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.8]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Python                                                   [4.9] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="python:builtin-constant" use-style="def:constant" />
+  <style name="python:builtin-function" use-style="def:function" />
+  <style name="python:module-handler" use-style="def:keyword" />
+  <style name="python:special-variable" use-style="def:constant" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.9]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Ruby                                                    [4.10] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="ruby:attribute-definition" use-style="def:variable" />
+  <style name="ruby:global-variable" use-style="def:variable" />
+  <style name="ruby:module-handler" use-style="def:keyword" />
+  <style name="ruby:predefined-variable" use-style="def:constant" />
+  <style name="ruby:regex" use-style="def:regexp" />
+  <style name="ruby:special-variable" use-style="def:constant" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[4.10]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - ShellScript                                             [4.11] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="sh:function" use-style="def:function" />
+  <style name="sh:others" use-style="def:other" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[4.11]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - XML                                                     [4.12] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="xml:attribute-name" use-style="def:attribute" />
+  <style name="xml:element-name" use-style="def:keyword" />
+  <style name="xml:namespace" use-style="def:namespace" />
+  <style name="xml:tag" use-style="def:tag" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[4.12]-+ -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
+</style-scheme>
