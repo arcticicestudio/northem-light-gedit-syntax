@@ -40,6 +40,7 @@ This is a light and more color-intensive variation of the "Northem" color palett
     (4.7) Perl
     (4.8) PHP
     (4.9) Python
+    (4.10) Ruby
 
 [Variations]
   - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
@@ -378,5 +379,16 @@ Glacier - Git
   <style name="python:module-handler" use-style="def:keyword" />
   <style name="python:special-variable" use-style="def:constant" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.9]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Ruby                                                    [4.10] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="ruby:attribute-definition" use-style="def:variable" />
+  <style name="ruby:global-variable" use-style="def:variable" />
+  <style name="ruby:module-handler" use-style="def:keyword" />
+  <style name="ruby:predefined-variable" use-style="def:constant" />
+  <style name="ruby:regex" use-style="def:regexp" />
+  <style name="ruby:special-variable" use-style="def:constant" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[4.10]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
