@@ -35,6 +35,7 @@ This is a light and more color-intensive variation of the "Northem" color palett
     (4.2) HTML
     (4.3) Java
     (4.4) JavaScript
+    (4.5) JSON
 
 [Variations]
   - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
@@ -320,5 +321,18 @@ Glacier - Git
      +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
   <style name="js:function" use-style="def:function" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.4]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - JSON                                                     [4.5] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="json:keyname" use-style="def:keyword" />
+  <style name="json:special-char" use-style="def:special-char" />
+  <style name="json:string" use-style="def:string" />
+  <style name="json:null-value" use-style="def:keyword" />
+  <style name="json:boolean" use-style="def:boolean" />
+  <style name="json:error" use-style="def:error" />
+  <style name="json:decimal" use-style="def:decimal" />
+  <style name="json:float" use-style="def:floating-point" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.5]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
