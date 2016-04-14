@@ -37,6 +37,7 @@ This is a light and more color-intensive variation of the "Northem" color palett
     (4.4) JavaScript
     (4.5) JSON
     (4.6) Markdown
+    (4.7) Perl
 
 [Variations]
   - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
@@ -352,5 +353,13 @@ Glacier - Git
   <!--<style name="markdown:abbreviation" use-style="#575757" />-->
   <!--<style name="markdown:table-separator" bold="true" />-->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.6]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Perl                                                     [4.7] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="perl:builtin" use-style="def:builtin" />
+  <style name="perl:include-statement" use-style="def:statement" />
+  <style name="perl:special-variable" use-style="def:constant" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.7]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
