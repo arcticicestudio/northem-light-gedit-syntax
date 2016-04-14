@@ -32,6 +32,7 @@ This is a light and more color-intensive variation of the "Northem" color palett
   (4) Languages
     (4.0) CSS
     (4.1) diff
+    (4.2) HTML
 
 [Variations]
   - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
@@ -285,5 +286,12 @@ Glacier - Git
   <style name="diff:location" use-style="def:keyword" />
   <style name="diff:diff-file" foreground="dark-blue" bold="true" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.1]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - HTML                                                     [4.2] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="html:dtd" use-style="def:shebang" />
+  <style name="html:tag" use-style="def:keyword" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.2]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
