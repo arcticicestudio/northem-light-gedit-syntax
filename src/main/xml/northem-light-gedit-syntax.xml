@@ -21,6 +21,7 @@ This is a light and more color-intensive variation of the "Northem" color palett
   (1) Color Palette
     (1.0) Northem Light 1.0.2
   (2) Settings
+  (3) Definitions
 
 [Variations]
   - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
@@ -173,4 +174,18 @@ Glacier - Git
   <style name="draw-spaces" foreground="light-gray" />
   <style name="right-margin" foreground="dark-snow" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Definitions                                                            [3] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Definitions - Customs                                                [3.0] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="def:symbol" foreground="dark-gray" />
+  <style name="def:other" foreground="dark-gray" />
+  <style name="def:regexp" foreground="yellow" />
+  <style name="def:verbatim" foreground="yellow" />
+  <style name="def:escape" foreground="yellow" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.0]-+ -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3]-+ -->
 </style-scheme>
