@@ -1,6 +1,15 @@
 Northem Light - Gedit Syntax
 ============================
 
+## 0.1.1 (2016-04-14)
+### Bug Fixes
+#### Dependency Compatibility
+  - Fixed the background color being overriden by the default GTK theme background color caused by an change in the `gtksourceview3@3.20.1` package
+
+### Improvements
+#### Documentation
+  - Added the `gtksourceview3@3.20.1` package as dependency
+
 ## 0.1.0 (2016-04-14)
 The project repository has been reconstructed and reinitialized for a clean migration to [gitflow](http://nvie.com/posts/a-successful-git-branching-model).  
 This is only relevant for the git history and does **NOT** impact the source code!
