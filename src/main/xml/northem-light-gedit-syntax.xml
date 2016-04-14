@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+++++++++++++++++++++++++++++++++++++++++++++
+title     Northem Light - Gedit Syntax     +
+project   northem-light-gedit-syntax       +
+file      northem-light-gedit-syntax.xml   +
+version                                    +
+author    Arctic Ice Studio                +
+email     development@arcticicestudio.com  +
+website   http://arcticicestudio.com       +
+copyright Copyright (C) 2015-2016          +
+created   2015-03-15 20:17 UTC+0100        +
+modified  2016-04-14 13:50 UTC+0200        +
+++++++++++++++++++++++++++++++++++++++++++++
+
+[Description]
+A north-bluish light theme based on the same named color palette "Northem Light".
+This is a light and more color-intensive variation of the "Northem" color palette.
+
+[Variations]
+  - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
+  - "Northem Dark - Gedit Syntax" (https://github.com/arcticicestudio/northem-dark-gedit-syntax)
+
+[Other Projects]
+  - "Northem Light - IntelliJ IDEA Syntax" (https://github.com/arcticicestudio/northem-light-intellij-idea-syntax)
+  - "Northem Light - Atom Syntax"          (https://github.com/arcticicestudio/northem-light-atom-syntax)
+  - "Northem Light - Eclipse Syntax"       (https://github.com/arcticicestudio/northem-light-eclipse-syntax)
+  - "Northem Light - GTK"                  (in drafting)
+  - "Northem Light - Notepadd++ Syntax"    (https://github.com/arcticicestudio/northem-light-notepadplusplus-syntax)
+
+Visit the official website http://arcticicestudio.com/northem (actually under construction) for more information.
+
+[Languages]
+  - CSS        (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/css.lang)
+  - diff       (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/diff.lang)
+  - HTML       (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/html.lang)
+  - Java       (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/java.lang)
+  - JavaScript (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/javascript.lang)
+  - JSON       (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/json.lang)
+  - Perl       (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/perl.lang)
+  - PHP(       (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/php.lang)
+  - Python     (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/python.lang)
+  - Ruby       (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/ruby.lang)
+  - Shell      (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/sh.lang)
+  - XML        (https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/xml.lang)
+
+[Version]
+- (https://github.com/arcticicestudio/northem-light-gedit-syntax/releases/latest)
+
+For older versions check out the GitHub Repository (https://github.com/arcticicestudio/northem-light-gedit-syntax/releases)
+and http://arcticicestudio.com/northem (actually under construction).
+
+[Changelog]
+Check out the "CHANGELOG.md" file or visit the GitHub Repository (https://github.com/arcticicestudio/northem-light-gedit-syntax)
+and http://arcticicestudio.com/northem (actually under construction).
+
+[Installation]
+Download and install the recommended font, read the "Dependencies" section for more information.
+
+Go to "Edit" -> "Preferences" -> "Font & Colors" and click on the "+".
+Alternatively copy the theme file manually, depending on the desired type of installation:
+
+  Global: /usr/share/gedit/styles
+  User:   ~/.local/share/gedit/styles
+
+Activate it by going to "Edit" > "Preferences" > "Font & Colors" and select "Northem Light" from the list.
+
+[Development]
+Workflow
+This project follows the "gitflow" (http://nvie.com/posts/a-successful-git-branching-model) branching model.
+
+Specifications
+This project follows the "Arctic Versioning Specification (ArcVer)" (https://github.com/arcticicestudio/arcver).
+
+[Dependencies]
+This theme requires the Open Source font "Source Code Pro" (https://typekit.com/fonts/source-code-pro).
+Visit the GitHub Repository (https://github.com/adobe-fonts/source-code-pro) for more information.
+
+Production
+  Engines
+    - gedit@3.20.1 (https://wiki.gnome.org/Apps/Gedit)
+
+Development
+  - northem-light@1.0.2 (https://github.com/arcticicestudio/northem-light)
+
+  Engines
+    - git@2.8.* (https://git-scm.com)
+
+  Skeletons
+    - glacier-git@0.22.0 (https://github.com/arcticicestudio/glacier-git)
+
+[Contribution]
+Please report issues/bugs, suggestions for improvements and feature requests to the issuetracker
+at https://github.com/arcticicestudio/northem-light-gedit-syntax/issues.
+
+[Author]
+"Northem Light - Gedit Syntax" is developed and authored by Arctic Ice Studio.
+
+[Copyright]
+Copyright (C) 2015-2016 Arctic Ice Studio <development@arcticicestudio.com>
+
+[License]
+Northem code is licensed under "GPL 3.0" (http://www.gnu.org/licenses/gpl.txt).
+Northem color palette itself is licensed under "CC BY-SA 4.0" (http://creativecommons.org/licenses/by-sa/4.0).
+
+[References]
+Northem Light
+  (http://github.com/arcticicestudio/northem-light)
+Northem
+  (http://github.com/arcticicestudio/northem)
+Style Scheme Definition
+  (https://developer.gnome.org/gtksourceview/stable/style-reference.html)
+Language Definition
+  (https://developer.gnome.org/gtksourceview/stable/lang-reference.html)
+GtkSourceStyle API
+  (https://developer.gnome.org/gtksourceview/stable/GtkSourceStyle.html)
+GtkSourceStyleScheme API
+  (https://developer.gnome.org/gtksourceview/stable/GtkSourceStyleScheme.html)
+Arctic Versioning Specification
+  (http://specs.arcticicestudio.com/arcver) (ArcVer)
+gitflow
+  (http://nvie.com/posts/a-successful-git-branching-model)
+Glacier - Git
+  (https://github.com/arcticicestudio/glacier-git)
+-->
+<style-scheme id="northem-light-gedit-syntax" name="Northem Light" filename="northem-light-gedit-syntax.xml" version="1.0">
+  <author>Arctic Ice Studio</author>
+  <description>A north-bluish light theme based on the same named color palette "Northem Light". This is a light and more color-intensive variation of the "Northem" color palette</description>
+</style-scheme>
