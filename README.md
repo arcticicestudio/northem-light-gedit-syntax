@@ -39,12 +39,12 @@ Visit the [official website](http://arcticicestudio.com/northem) (actually under
   - <img src="https://www.w3.org/favicon.ico" width=16 height=16> <a href="https://git.gnome.org/browse/gtksourceview/tree/data/language-specs/xml.lang">XML</a>
 
 ### Version
-[`0.1.0`](https://github.com/arcticicestudio/northem-light-gedit-syntax/releases/latest)  
+[`0.1.1`](https://github.com/arcticicestudio/northem-light-gedit-syntax/releases/latest)  
 
 For older versions check out the [GitHub Repository](https://github.com/arcticicestudio/northem-light-gedit-syntax) or [official website](http://arcticicestudio.com/northem) (actually under construction).
 
 ### Changelog
-[`0.1.0`](CHANGELOG.md)
+[`0.1.1`](CHANGELOG.md)
 
 ### Installation
 Download and install the recommended font, read section [Recommendations](#Recommendations) for more information.
