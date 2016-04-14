@@ -10,7 +10,7 @@ email     development@arcticicestudio.com  +
 website   http://arcticicestudio.com       +
 copyright Copyright (C) 2015-2016          +
 created   2015-03-15 20:17 UTC+0100        +
-modified  2016-04-14 13:50 UTC+0200        +
+modified  2016-04-14 14:04 UTC+0200        +
 ++++++++++++++++++++++++++++++++++++++++++++
 
 [Description]
@@ -42,6 +42,7 @@ This is a light and more color-intensive variation of the "Northem" color palett
     (4.9) Python
     (4.10) Ruby
     (4.11) ShellScript
+    (4.12) XML
 
 [Variations]
   - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
@@ -398,5 +399,14 @@ Glacier - Git
   <style name="sh:function" use-style="def:function" />
   <style name="sh:others" use-style="def:other" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[4.11]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - XML                                                     [4.12] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="xml:attribute-name" use-style="def:attribute" />
+  <style name="xml:element-name" use-style="def:keyword" />
+  <style name="xml:namespace" use-style="def:namespace" />
+  <style name="xml:tag" use-style="def:tag" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[4.12]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
