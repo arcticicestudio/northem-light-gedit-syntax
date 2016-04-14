@@ -29,6 +29,8 @@ This is a light and more color-intensive variation of the "Northem" color palett
       (3.1.2) Comments
       (3.1.3) Keywords
       (3.1.4) Logicals
+  (4) Languages
+    (4.0) CSS
 
 [Variations]
   - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
@@ -255,4 +257,21 @@ Glacier - Git
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.1.4]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.1]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages                                                              [4] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - CSS                                                      [4.0] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="css:at-rules" use-style="def:keyword" />
+  <style name="css:color" use-style="def:constant" />
+  <style name="css:comment" use-style="def:comment" />
+  <style name="css:decimal" use-style="def:decimal" />
+  <style name="css:error" use-style="def:error" />
+  <style name="css:keyword" use-style="def:keyword" />
+  <style name="css:block" use-style="def:symbol" />
+  <style name="css:string" use-style="def:string" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.0]-+ -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
