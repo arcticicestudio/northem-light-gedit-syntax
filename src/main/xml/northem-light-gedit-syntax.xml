@@ -17,6 +17,10 @@ modified  2016-04-14 13:50 UTC+0200        +
 A north-bluish light theme based on the same named color palette "Northem Light".
 This is a light and more color-intensive variation of the "Northem" color palette.
 
+[Index]
+  (1) Color Palette
+    (1.0) Northem Light 1.0.2
+
 [Variations]
   - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
   - "Northem Dark - Gedit Syntax" (https://github.com/arcticicestudio/northem-dark-gedit-syntax)
@@ -126,4 +130,29 @@ Glacier - Git
 <style-scheme id="northem-light-gedit-syntax" name="Northem Light" filename="northem-light-gedit-syntax.xml" version="1.0">
   <author>Arctic Ice Studio</author>
   <description>A north-bluish light theme based on the same named color palette "Northem Light". This is a light and more color-intensive variation of the "Northem" color palette</description>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Color Palette                                                          [1] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Color Palette - Northem Light 1.0.2                                  [1.0] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <color name="dark-gray"  value="#454546" />
+  <color name="gray"       value="#6D6D6F" />
+  <color name="light-gray" value="#C6C6C8" />
+  <color name="dark-snow"  value="#F2F2F7" />
+  <color name="dirty-snow" value="#F9F9FC" />
+  <color name="snow"       value="#FFFFFF" />
+
+  <color name="aqua"       value="#7ACAC2" />
+  <color name="light-blue" value="#6FBAD0" />
+  <color name="blue"       value="#71A7CA" />
+  <color name="dark-blue"  value="#5781B3" />
+
+  <color name="red"        value="#DF5C5A" />
+  <color name="yellow"     value="#FFC568" />
+  <color name="orange"     value="#F19054" />
+  <color name="lime"       value="#C5C961" />
+  <color name="purple"     value="#BA8EC4" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [1.0]-+ -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [1]-+ -->
 </style-scheme>
