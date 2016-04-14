@@ -67,6 +67,8 @@ This project follows the [Arctic Versioning Specification (ArcVer)](https://gith
 This theme requires the Open Source font [Source Code Pro](https://typekit.com/fonts/source-code-pro)
 Visit the [GitHub Repository](https://github.com/adobe-fonts/source-code-pro) for more information.
 
+  - [`gtksourceview3@3.20.1`](https://developer.gnome.org/gtksourceview/3.20)
+
 #### Production
 **Engines**
   - [`gedit@3.20.1`](https://wiki.gnome.org/Apps/Gedit)

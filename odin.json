@@ -37,6 +37,7 @@
     {"id": "arcver","version": "0.8.0","manager": "odin"}
   ],
   "dependencies": [
+    {"id": "gtksourceview3","version": "3.20.1","manager": "pacman"},
     {"id": "northem-light","version": "1.0.2","manager": "odin"}
   ],
   "devDependencies": [
