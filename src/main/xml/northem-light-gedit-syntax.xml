@@ -41,6 +41,7 @@ This is a light and more color-intensive variation of the "Northem" color palett
     (4.8) PHP
     (4.9) Python
     (4.10) Ruby
+    (4.11) ShellScript
 
 [Variations]
   - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
@@ -390,5 +391,12 @@ Glacier - Git
   <style name="ruby:regex" use-style="def:regexp" />
   <style name="ruby:special-variable" use-style="def:constant" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[4.10]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - ShellScript                                             [4.11] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="sh:function" use-style="def:function" />
+  <style name="sh:others" use-style="def:other" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[4.11]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
