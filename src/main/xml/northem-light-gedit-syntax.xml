@@ -27,6 +27,7 @@ This is a light and more color-intensive variation of the "Northem" color palett
       (3.1.0) Variables
       (3.1.1) Constants
       (3.1.2) Comments
+      (3.1.3) Keywords
 
 [Variations]
   - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
@@ -228,6 +229,21 @@ Glacier - Git
   <style name="def:doc-comment-element" foreground="dark-blue" />
   <style name="def:net-address-in-comment" foreground="light-gray" italic="true" underline="true" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.1.2]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Definitions - Defaults - Keywords                                  [3.1.3] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="def:keyword" foreground="blue" />
+  <style name="def:class" foreground="aqua" />
+  <style name="def:tag" use-style="def:keyword" />
+  <style name="def:identifier" use-style="def:keyword" />
+  <style name="def:attribute" use-style="def:class" />
+  <style name="def:shebang" foreground="dark-blue" />
+  <style name="def:preprocessor" foreground="dark-blue" />
+  <style name="def:statement" use-style="def:keyword" />
+  <style name="def:builtin" use-style="def:keyword" />
+  <style name="def:reserved" use-style="def:keyword" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.1.3]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3.1]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [3]-+ -->
 </style-scheme>
