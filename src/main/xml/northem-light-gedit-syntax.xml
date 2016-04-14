@@ -39,6 +39,7 @@ This is a light and more color-intensive variation of the "Northem" color palett
     (4.6) Markdown
     (4.7) Perl
     (4.8) PHP
+    (4.9) Python
 
 [Variations]
   - "Northem - Gedit Syntax"      (https://github.com/arcticicestudio/northem-gedit-syntax)
@@ -368,5 +369,14 @@ Glacier - Git
      +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
   <style name="php:string" use-style="def:string" />
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.8]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Python                                                   [4.9] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <style name="python:builtin-constant" use-style="def:constant" />
+  <style name="python:builtin-function" use-style="def:function" />
+  <style name="python:module-handler" use-style="def:keyword" />
+  <style name="python:special-variable" use-style="def:constant" />
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4.9]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [4]-+ -->
 </style-scheme>
